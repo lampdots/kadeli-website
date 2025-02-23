@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KADELI DOOR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('door-background.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .logo img {
+            max-width: 75%;
+            height: auto;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .store-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .store-image img {
+            max-width: 100%;
+            border-radius: 5px;
+            display: block;
+            max-width: 33%;
+            height: auto;
+            margin: auto;
+            border: 1px solid #ccc;
+        }
+        .store-text {
+            max-width: 50%;
+            font-size: 18px;
+            text-align: left;
+            color: #333;
+        }
+        .product {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product-item {
+            background: #eee;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 5px;
+            width: 250px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .map {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .map iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="kadeli-door-logo.jpeg" alt="Kadeli Door Logo">
+    </div>
+    <header>
+        <h1>Προστασία και Εμπιστοσύνη σε Κάθε Πόρτα!</h1>
+    </header>
+    <div class="container">
+        <h2>Το Κατάστημά μας</h2>
+        <div class="store-section">
+            <div class="store-image">
+                <img src="store.jpg" alt="Το Κατάστημά μας" onerror="this.onerror=null; this.src='placeholder.jpg';">
+            </div>
+            <div class="store-text">
+                <p>Το κατάστημά μας βρίσκεται στην καρδιά της πόλης και προσφέρει μια μεγάλη ποικιλία από υψηλής ποιότητας πόρτες. 
+                Από κλασικές ξύλινες πόρτες μέχρι σύγχρονες πόρτες ασφαλείας, διαθέτουμε προϊόντα που συνδυάζουν αντοχή και αισθητική. 
+                Επισκεφθείτε μας για να βρείτε την ιδανική λύση για το σπίτι ή τον επαγγελματικό σας χώρο.</p>
+            </div>
+        </div>
+        <h2>Πόρτες Ασφαλείας</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="door1.jpg" alt="Πόρτα Ξύλινη">
+                <h3>Πόρτα Ξύλινη</h3>
+            </div>
+            <div class="product-item">
+                <img src="door2.jpg" alt="Πόρτα Αλουμινίου">
+                <h3>Πόρτα Αλουμινίου</h3>
+            </div>
+            <div class="product-item">
+                <img src="door3.jpg" alt="Πόρτα Ασφαλείας">
+                <h3>Πόρτα Ασφαλείας</h3>
+            </div>
+        </div>
+        <h2>Εσωτερικές Πόρτες</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="door4.jpg" alt="Πόρτα Ξύλινη">
+                <h3>Πόρτα Ξύλινη</h3>
+            </div>
+            <div class="product-item">
+                <img src="door5.jpg" alt="Πόρτα Αλουμινίου">
+                <h3>Πόρτα Αλουμινίου</h3>
+            </div>
+            <div class="product-item">
+                <img src="door6.jpg" alt="Πόρτα Ασφαλείας">
+                <h3>Πόρτα Ασφαλείας</h3>
+            </div>
+        </div>
+        <h2>Η Τοποθεσία μας</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?..." allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>Επικοινωνία : <a href="tel:6932480320">6932480320</a> | Email: <a href="mailto:info@kadelidoor.gr">info@kadelidoor.gr</a></p>
+    </footer>
+</body>
+</html>
+
